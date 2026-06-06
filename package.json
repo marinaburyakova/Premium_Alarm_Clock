@@ -1,25 +1,27 @@
 {
-  "name": "alarm-clock-spa",
-  "private": true,
-  "version": "2.0.0",
+  "name": "cost",
+  "version": "1.0.0",
   "type": "module",
-    "homepage": "https://https://github.com/marinaburyakova/Premium_Alarm_Clock//",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+  "homepage": "https://https://github.com/marinaburyakova/Premium_Alarm_Clock//",
   "dependencies": {
+    "chart.js": "^4.5.1",
+    "framer-motion": "^12.40.0",
     "gsap": "^3.15.0",
-    "lucide-react": "^0.263.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "lucide-react": "^1.17.0",
+    "react": "^19.2.7",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^19.2.7"
   },
   "devDependencies": {
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^6.0.2",
     "gh-pages": "^6.3.0",
     "vite": "^8.0.16"
+  },
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   }
 }

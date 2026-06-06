@@ -145,6 +145,17 @@ body.dark-theme {
   border-radius: 40px;
 }
 
+
+body.dark-theme .dial-section {
+  display: block;
+  margin: 0 auto;
+  min-width: 280 px;
+  background: #f1f2f8;
+  border-radius: 50%
+}
+
+
+
 /* Theme Toggle Dark */
 body.dark-theme .theme-toggle {
   background: transparent;
@@ -871,12 +882,13 @@ body.dark-theme .empty-state {
   .digital-time {
     font-size: 48px;
   }
- /* .alarm.card {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+body.dark-theme .circle {
+ 
+  position: relative;
+  width: 285px;
+  height: 285px;
 
- } */
+}
 .alarm-days {
   display: flex;
   justify-content: space-between;

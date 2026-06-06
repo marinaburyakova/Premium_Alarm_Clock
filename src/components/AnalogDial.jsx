@@ -51,7 +51,7 @@ function AnalogDial({ isDarkTheme }) {
   return (
     <div className="circle" ref={dialRef}>
       <img
-        src="/clock-face.svg"
+        src="./clock-face.svg"
         alt="Clock face"
         style={{
           position: "absolute",

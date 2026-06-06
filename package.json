@@ -2,7 +2,6 @@
   "name": "cost",
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://https://github.com/marinaburyakova/Premium_Alarm_Clock//",
   "dependencies": {
     "chart.js": "^4.5.1",
     "framer-motion": "^12.40.0",

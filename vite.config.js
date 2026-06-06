@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
     plugins: [react()],
-  base: "/Premium_Alarm_Clockr/",
+  base: "/Premium_Alarm_Clock/",
 
   server: {
     port: 3000,
